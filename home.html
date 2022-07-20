@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/script.js" defer></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Desafio 2</title>    
+</head>
+<body>
+    <section>
+        <div id="dados">
+            <p>Ano de Nascimento.: <input type="number" name="txtano" id="txtano"></p>
+            <p>Sexo.:</p>
+            <input type="radio" name="radsex" id="mas" value="Masculino" checked class="radsex"><label for="mas">Masculino</label>
+            <input type="radio" name="radsex" id="fem" class="radsex" value="Feminino"><label for="fem">Feminino</label>
+        </div>
+        <div><p><input type="button" value="Verificar" onclick="verificar()" onmouseenter="mouseEnter()" onmouseout="mouseOut()" id="btn"></p></div>
+        <div id="res">
+            <p id="msg"></p>
+            <p id="imgFoto">
+                <img src="#" alt="" id="img">
+            </p>
+        </div>
+    </section>
+    <footer>
+        <p>Product by.: A. Ribeiro</p>
+        <p>&copy; 2022 Copyright - Wincorp Education</p>
+    </footer>
+</body>
+</html>

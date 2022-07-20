@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: rgb(255, 136, 0);
+    color: white;
+    text-align: center;
+}
+header{
+    margin: 15px auto;
+    height: 50px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border: solid 1px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.637);
+    color: black;
+}
+
+#dados{
+    margin: 15px;
+    text-align: left;
+}
+
+input{
+    margin: 2px;
+}
+
+#msg{
+    padding: 5px;
+}
+
+#imgFoto {
+    padding: 2px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.637);
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border-radius: 50%;
+    visibility: hidden;
+}
+
+#btn {
+    margin: auto;
+    align-items: center;
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border: hidden;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.637);
+    background-color: cornflowerblue;
+    font: bolder 14px Arial;
+}
+/* msg.style.padding = '5px'
+        imgFoto.style.padding = '2px'
+        imgFoto.style.boxShadow = '1px 1px 5px 1px rgba(0, 0, 0, 0.637)'
+        imgFoto.style.width = '250px'
+        imgFoto.style.margin = 'auto'
+        imgFoto.style.height = '250px'
+        imgFoto.style.borderRadius = '50%' */
